@@ -1,0 +1,119 @@
+.projects{
+    /* background-color: #F5F3F4; */
+    background-color: #BA181B;
+    overflow: hidden;
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding:10%;
+    border-radius: 8%;
+}
+.projects h2{
+    font-size: 4rem;
+    text-decoration: underline;
+}
+.proInfo img{
+    width: 90%;
+    height: 45%;
+    margin-left: 5%;
+    transition: all 1s ease;
+}
+.proLogo{
+    background-color: red;
+    size: 20%;
+}
+
+.img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    margin-left: 5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.75s;
+}
+.img-overlay--blur{
+    backdrop-filter: blur(5px);
+}
+.img-overlay:hover{
+    opacity: 1;
+}
+
+.proInfo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+    position: relative;
+}
+.proInfo h3{
+    font-size: 2rem;
+}
+.proInfo p{
+    font-size: 1.5rem;
+}
+.proInfo a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    border: 1px solid black;
+    background-color: #D3D3D3;
+    width: 15%;
+    height: 40px;
+    padding-top: 1%;
+    margin-top: 2%;
+    margin-left: 42%;
+    transition: all 2s ease
+
+}
+.proInfo a:hover {
+    background-color: black;
+    color: white;
+}
+.gitButton {
+    display: flex;
+    flex-direction: column;
+}
+.gitButton a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    border: 1px solid black;
+    background-color: #D3D3D3;
+    width: 15%;
+    height: 40px;
+    padding-top: 1%;
+    margin-top: 2%;
+    margin-left: 42%;
+    transition: all 2s ease
+}
+.gitButton a:hover{
+    background-color: black;
+    color: white;
+}
+
+@media(max-width: 1100px){
+    .proInfo img{
+        height: 50vh;
+    
+    }
+    .proInfo a{
+        width: 25%;
+        margin-left: 40%;
+    }
+}
+@media(max-width:600px){
+    .proInfo h3{
+        font-size: 1rem;
+    }
+    .proInfo p{
+        font-size: 0.8rem;
+        padding-top: -20%;
+    }
+    .proInfo a{
+        width: 20%;
+        margin-left: 40%;
+    }
+}
