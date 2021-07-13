@@ -55,6 +55,11 @@
   font-size: 3rem;
 
 }
+@media(max-width:1025px){
+  .navLinks{
+    font-size: 1.3rem;
+  }
+}
 @media(max-width:700px){
   .headerNav{
     width: 100%;

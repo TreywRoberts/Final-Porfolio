@@ -103,7 +103,7 @@
 
     }
 }
-@media(min-width: 320px){
+@media(max-width: 416px){
     .aboutHeader{
         padding-bottom: 70%;
     }
