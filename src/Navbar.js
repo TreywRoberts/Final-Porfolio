@@ -10,7 +10,8 @@ import React from 'react'
                         <a href='#about' className='navLinks'>About</a>
                         <a href='#projects' className='navLinks' >Projects</a>
                         <a href='#contact' className='navLinks'>Contact</a>
-                        <a href='https://treywroberts.medium.com/' className='navLinks'>Blog</a>  
+                        <a href='https://treywroberts.medium.com/' className='navLinks'>Blog</a> 
+                        <a href='https://treys-tetris-clone.herokuapp.com/' className='navLinks'>Bored?</a> 
                     </nav>
            )
        }

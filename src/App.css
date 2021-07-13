@@ -64,3 +64,8 @@
     margin: 3%;
   }
 }
+@media(max-width:770px){
+  .navLinks{
+    font-size: 1rem;
+  }
+}

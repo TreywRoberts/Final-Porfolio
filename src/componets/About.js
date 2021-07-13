@@ -13,11 +13,11 @@ function About(){
                 >About Me</motion.h2>
                 {/* <img className='aboutPic' src={athensPic}/> */}
                 <div className='aboutEmpty'></div>
-                <h3>I am a Athens, GA native since 2000.<br>
+                <h3>I have been a Athens, GA native since 2000.<br>
                 </br>After working in resturants and sales I decided<br>
                 </br>to turn my focus on the digital world. I specialize in<br>
                 </br> react, python, html5, and css<br>
-                </br>I am looking forward to working or chatting with you! </h3>
+                </br>I am looking forward to working with or chatting with you! </h3>
             </div>
             <motion.div
             
