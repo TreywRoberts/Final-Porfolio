@@ -69,3 +69,12 @@
     font-size: 1rem;
   }
 }
+@media(max-width:375px){
+    .headerNav{
+      width: 100%;
+    }
+  .navLinks{
+    font-size: 1rem;
+    margin: 1%;
+  }
+}

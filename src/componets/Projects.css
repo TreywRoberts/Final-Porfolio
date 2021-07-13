@@ -117,3 +117,20 @@
         margin-left: 40%;
     }
 }
+@media(max-width:375px){
+    .proInfo h3{
+        font-size: 1rem;
+    }
+    .proInfo p{
+        font-size: 0.8rem;
+        padding-top: -20%;
+    }
+    .proInfo a{
+        width: 27%;
+        margin-left: 37%;
+    }
+    .gitButton a{
+        width: 27%;
+        margin-left: 37%;
+    }
+}

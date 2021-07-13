@@ -103,3 +103,21 @@
 
     }
 }
+@media(max-width: 375px){
+    .aboutHeader{
+        padding-bottom: 70%;
+    }
+    .skillsContianer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0% 0% 10%;
+        margin-bottom: 10%;
+
+    }
+    .backend{
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+}
