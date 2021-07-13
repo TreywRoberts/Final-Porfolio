@@ -68,10 +68,24 @@
         font-size: 2.5rem;
     }
 }
-@media(max-width: 375px){
-    
+@media(max-width: 415px){
+    .home{
+        height: 100vh;
+    }
     .homeHeader{
         display: flex;
         flex-direction: column;
+    }
+}
+@media(max-width: 320px){
+    .home{
+        height: 100vh;
+    }
+    .homeHeader{
+        display: flex;
+        flex-direction: column;
+    }
+    .homeHeader h2{
+        font-size: 2rem;
     }
 }

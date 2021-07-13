@@ -78,3 +78,20 @@
     margin: 1%;
   }
 }
+@media(max-width:320px){
+  .headerNav{
+    width: 100%;
+  }
+.navLinks{
+  font-size: 1rem;
+  margin: 1%;
+}
+.bored{
+  display: none;
+}
+}
+@media(max-width:415px){
+.bored{
+  display: none;
+}
+}

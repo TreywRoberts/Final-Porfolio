@@ -32,12 +32,7 @@ function Home(){
                  />
                  </h2>
             </div>
-            <div className='Buttons'>
-                {/* <h3>Checkout my recent projects!</h3>
-                <a href='#projects'>Here!</a>
-                <h3>Learn more about me!</h3>
-                <a href='#about'>Here!</a> */}
-            </div>
+        
         </div>
     )
 }

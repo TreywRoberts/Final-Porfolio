@@ -103,7 +103,7 @@
 
     }
 }
-@media(max-width: 375px){
+@media(min-width: 320px){
     .aboutHeader{
         padding-bottom: 70%;
     }
@@ -119,5 +119,11 @@
     .backend{
         margin-bottom: 10%;
         margin-top: 10%;
+    }
+}
+
+@media(max-width: 320px){
+    .aboutHeader{
+        padding-bottom: 110%;
     }
 }
