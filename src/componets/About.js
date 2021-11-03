@@ -3,17 +3,18 @@ import './About.css'
 import { motion } from "framer-motion"
 
 function About(){
+
     return(
         <motion.div 
         id='about'
         className='about'>
+            <div className='aboutEmpty'></div>
             <div className='aboutHeader'>
                 <motion.h2
                 whileHover={{scale: 1.5}}
                 >About Me</motion.h2>
-                {/* <img className='aboutPic' src={athensPic}/> */}
-                <div className='aboutEmpty'></div>
                 <h3>I have been an Athens, GA native since 2000.<br>
+                </br> <br>
                 </br>After working in resturants and sales I decided<br>
                 </br>to turn my focus on the digital world. I specialize in<br>
                 </br> react, python, html5, and css<br>

@@ -5,9 +5,6 @@ import './Contact.css'
 import { init, sendForm } from 'emailjs-com';
 init('user_Fkk7mNw3WDZjiR2XAyt0p');
 
-
-
-
 function Contact(){
     const { register, handleSubmit, watch } = useForm();
     const [contactNumber, setContactNumber] = useState("000000");

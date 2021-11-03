@@ -2,19 +2,40 @@
 
 .App {
   text-align: center;
+  /* background-color: black; */
+      background-color: #B1A7A6;  
+
+  
+}
+
+h2{
+  font-size: 4rem;
+  text-decoration: underline;
+  /* border: 1px solid black; */
+}
+
+h3{
+  font-size: 2rem;
+}
+h4{
+  font-size:1.8rem;
+}
+p{
+  font-size: 3.5;
 }
 .headerNav{
   /* display: flex;
   /* justify-content: center; */
   /* height: 100vh; */
 
-  padding:2.5% 0% 2.5%;
+  padding:1% 0% 2%;
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
   z-index: 1;
   background-color: black;
   width: 100%;
+
 
 
   /* padding:3%; */
@@ -38,9 +59,10 @@
   color:white;
   text-decoration: none;
   text-transform: uppercase;
-  margin:5%;
-  font-size: 1.5rem;
-  transition: all 1s ease
+  margin:4%;
+  font-size: 1.8rem;
+  transition: all 1s ease;
+
 
 }
 
@@ -75,9 +97,9 @@
   }
 }
 @media(max-width:375px){
-    .headerNav{
-      width: 100%;
-    }
+  .headerNav{
+    width: 100%;
+  }
   .navLinks{
     font-size: 1rem;
     margin: 1%;
@@ -87,9 +109,9 @@
   .headerNav{
     width: 100%;
   }
-.navLinks{
-  font-size: 1rem;
-  margin: 1%;
+  .navLinks{
+    font-size: 1rem;
+    margin: 1%;
 }
 .bored{
   display: none;

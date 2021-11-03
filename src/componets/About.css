@@ -1,48 +1,35 @@
 .about{
-    /* background-color: cadetblue; */
-    /* margin-top: -4.2%; */
-    /* margin: 0% 12% 0% ; */
-    /* width: 75%; */
-    margin-top: 3%;
-
 }
+
 .aboutEmpty{
-    height: 300px;
+    height: 30vh;
     background-image: url('./../pictures/AthensHead3.jpg');
     background-position: top;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
 }
 .aboutHeader{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     padding:5%;
-    border-radius: 8%;
-    height: 90vh;
-    background-color: #BA181B;
-}
-.about h2{
-    font-size: 4rem;
-    text-decoration: underline;
-    /* border: 1px solid black; */
-}
-.aboutPic{
-    width: 100%;
+    border-radius: 8%; */
+    /* height: 90vh; */
+    /* background-color: #BA181B; */
+    /* background-color: #B1A7A6;   */
 
 }
+
 .skills{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     padding:5%;
     border-radius: 8%;
     width: 70%;
     margin-top:-9%;
-    margin-left: 10%;
-    margin-bottom: 5%;
-    background-color: #B1A7A6;  
+    margin-bottom: 5%;  
+    background-color: #BA181B;
 }
 
 .skillsContianer{
     display: flex;
-    margin: 0% 12% 0% ;
-    width: 75%;
+    justify-content: center;
     
     
     /* border: 1px solid black; */
@@ -55,21 +42,24 @@
 }
 .frontend{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    padding:5%;
+    padding:2%;
     width: 40%;
+    background-color: #B1A7A6;
 }
 
 .backend{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    padding:5%;
+    padding:2%;
     margin: 0 7% 0;
     width: 40%;
+    background-color: #B1A7A6;
 
 }
 .other{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    padding:5%;
+    padding:2%;
     width: 40%;
+    background-color: #B1A7A6;
 
 }
 .skills h3{
@@ -78,6 +68,16 @@
 @media(max-width: 1400px){
     .aboutHeader{
         padding-bottom: 20%;
+    }
+    .skills{
+        width: 80%;
+    }
+
+    .skillsContianer{
+        width: 90%
+    }
+    .backend{
+        margin: 0 1% 0
     }
 }
 @media(max-width: 700px){
